@@ -22,7 +22,6 @@ body button {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.4;
   letter-spacing: 0.03em;
   text-align: center;
   font-family: Roboto;
@@ -32,7 +31,7 @@ body button {
 }
 
 body a:visited {
-  color: var(--secodary-color);
+  color: var(--main-color);
 }
 
 body a {
@@ -43,7 +42,7 @@ body button:hover,
 body button:focus,
 body button:active {
   background-color: var(--hover-color);
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .navi-list a:hover,
@@ -73,11 +72,12 @@ body button:active {
   color: var(--hover-color);
 }
 
-.navi-list a {
+.navi-list {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   font-weight: 500;
+  color: var(--main-color);
 }
 
 .navi-bar a {
@@ -162,7 +162,7 @@ body button:active {
   color: var(--main-color);
 }
 
-.project-list .project-type {
+.project-type {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
